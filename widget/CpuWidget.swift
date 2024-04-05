@@ -94,7 +94,7 @@ struct CpuWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             if #available(macOS 14.0, *) {
                 CpuWidgetEntryView(entry: entry)
-                    .containerBackground(.fill.tertiary, for: .widget)
+                    .containerBackground(.background, for: .widget)
                     .widgetURL(URL(string: "main"))
             } else {
                 CpuWidgetEntryView(entry: entry)

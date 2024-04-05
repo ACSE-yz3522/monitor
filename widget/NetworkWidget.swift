@@ -99,7 +99,7 @@ struct NetworkWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             if #available(macOS 14.0, *) {
                 widgetEntryView(entry: entry)
-                    .containerBackground(.fill.tertiary, for: .widget)
+                    .containerBackground(.background, for: .widget)
                     .widgetURL(URL(string: "main"))
             } else {
                 widgetEntryView(entry: entry)
