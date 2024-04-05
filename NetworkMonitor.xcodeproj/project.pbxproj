@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F94F4012BC04B3100C41A4F /* RimWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F94F4002BC04B3100C41A4F /* RimWidget.swift */; };
 		75139B9C25C2B7A300FBE6EF /* Nettop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75139B9B25C2B7A300FBE6EF /* Nettop.swift */; };
 		753054F1238E5B0000072D6E /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753054F0238E5B0000072D6E /* StringUtils.swift */; };
 		753FCFC32A664315004B9FF3 /* NetworkMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FCFC22A664315004B9FF3 /* NetworkMonitorTests.swift */; };
@@ -86,6 +87,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F94F4002BC04B3100C41A4F /* RimWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RimWidget.swift; sourceTree = "<group>"; };
 		75139B9B25C2B7A300FBE6EF /* Nettop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nettop.swift; sourceTree = "<group>"; };
 		753054F0238E5B0000072D6E /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		753054F5238E679500072D6E /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 				75E7981E2AFB3CBA0035B0E0 /* Assets.xcassets */,
 				75E798202AFB3CBA0035B0E0 /* Info.plist */,
 				75E798212AFB3CBA0035B0E0 /* widget.entitlements */,
+				6F94F4002BC04B3100C41A4F /* RimWidget.swift */,
 			);
 			path = widget;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				75BA1AFF2B05FC04006DAF68 /* SysInfo.swift in Sources */,
 				75BA1B042B06029F006DAF68 /* MemoryWidget.swift in Sources */,
 				7593FB6A2AFB8E25006514EF /* SharedData.swift in Sources */,
+				6F94F4012BC04B3100C41A4F /* RimWidget.swift in Sources */,
 				75BA1B072B0605FC006DAF68 /* CpuWidget.swift in Sources */,
 				7593FB6C2AFB8F06006514EF /* SysUtils.swift in Sources */,
 				75E7981B2AFB3CB70035B0E0 /* WidgetBundle.swift in Sources */,

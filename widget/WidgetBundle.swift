@@ -16,6 +16,7 @@ struct widgetBundle: WidgetBundle {
         NetworkWidget()
         MemoryWidget()
         CpuWidget()
+        RimWidget()
     }
     
     static let firstColor = Color.yellow
